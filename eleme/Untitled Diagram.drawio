@@ -285,7 +285,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nUQk2F85FTCc-DYCyCI7" name="Page-3">
-    <mxGraphModel dx="5808" dy="2062" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3754" dy="1031" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -384,7 +384,7 @@
         <mxCell id="HlNm9U6EvYx859h_Ncy1-7" edge="1" parent="1" source="YUnKfK5bLWKfUv3Z1jvs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HlNm9U6EvYx859h_Ncy1-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HlNm9U6EvYx859h_Ncy1-8" connectable="0" parent="HlNm9U6EvYx859h_Ncy1-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="MaxQ sdk 发送闪购格式msg" vertex="1">
+        <mxCell id="HlNm9U6EvYx859h_Ncy1-8" connectable="0" parent="HlNm9U6EvYx859h_Ncy1-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Kafka sdk 发送闪购格式msg" vertex="1">
           <mxGeometry relative="1" x="-0.0108" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -672,7 +672,7 @@
         <mxCell id="HlNm9U6EvYx859h_Ncy1-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="消息中间件 Kafka" vertex="1">
           <mxGeometry height="30" width="114" x="-873.5" y="753" as="geometry" />
         </mxCell>
-        <mxCell id="HlNm9U6EvYx859h_Ncy1-4" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="MaxQ sdk 发送闪购格式msg" vertex="1">
+        <mxCell id="HlNm9U6EvYx859h_Ncy1-4" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Kafka sdk 发送闪购格式msg" vertex="1">
           <mxGeometry x="-681" y="619" as="geometry" />
         </mxCell>
         <mxCell id="HlNm9U6EvYx859h_Ncy1-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
@@ -687,11 +687,13 @@
         <mxCell id="HlNm9U6EvYx859h_Ncy1-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
           <mxGeometry height="165" width="163" x="1981" y="783" as="geometry" />
         </mxCell>
-        <mxCell id="HlNm9U6EvYx859h_Ncy1-14" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="metaq sdk 发送闪购格式msg" vertex="1">
+        <mxCell id="HlNm9U6EvYx859h_Ncy1-14" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="kafka sdk 发送闪购格式msg" vertex="1">
           <mxGeometry x="1132" y="720" as="geometry" />
         </mxCell>
-        <mxCell id="HlNm9U6EvYx859h_Ncy1-15" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="metaq sdk 发送闪购格式msg" vertex="1">
-          <mxGeometry x="1921" y="720" as="geometry" />
+        <mxCell id="HlNm9U6EvYx859h_Ncy1-15" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="kafka sdk 发送闪购格式msg" vertex="1">
+          <mxGeometry x="1921" y="720" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HlNm9U6EvYx859h_Ncy1-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="消息中间件 Kafka" vertex="1">
           <mxGeometry height="30" width="114" x="928.5" y="852.5" as="geometry" />
